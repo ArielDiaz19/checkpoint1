@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(245, 222, 179);
+}
+header>h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 8rem;
+    padding: 2rem;
+}
+header>h2{
+    text-align: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 5rem;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    height: 7rem;
+}
+main{
+    min-height: 60vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 11rem;
+}
+.card{
+    text-align: center;
+    padding-top: 9rem;
+}
+.card h2{
+    font-size: 5rem;
+    padding: 4rem;
+}
+.card p{
+    font-size: 3rem;
+}
+.h2p{
+    border-style: outset;
+}
+.card img{
+    height: 40rem;
+}
+#p2{
+    padding-bottom: 3.3rem ;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20rem;
+}
+.list{
+    font-size: 5rem;
+}
+table{
+    font-size: 6rem;
+    width: 30rem;
+}
+table, th, tr, td{
+    border: solid 7px;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+.table h2{
+    text-align: center;
+    font-size: 7rem;
+}
+footer{
+    min-height: 20vh;
+    background-color: rgb(245, 222, 179);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.footer p, a{
+    font-size: 5rem;
+    padding-top: 16rem;
+}
+form{
+    padding: 16rem;
+    font-size: 5rem;
+}
+.input1{
+    width: 40rem;
+    height: 4rem;
+}
+.input2{
+    font-size: 3rem;
+    width: 10rem;
+    height: 5rem;
+    padding-bottom: 1rem;
+}
